@@ -9,7 +9,7 @@ proxies:
   - {"name":"04-CA","type":"vless","server":"51.81.223.225","port":11094,"udp":true,"uuid":"f1fa0ad9-b122-4b7c-da82-4bea9edc48dd","tls":true,"servername":"www.yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"9dnXiXxP4xgvtTVRj9SBFdyO6mjGvVhWD8qVZZLCCCk","short-id":"a356addf"},"client-fingerprint":"chrome"}
   - {"name":"05-CF","type":"vless","server":"43.250.107.232","port":32115,"udp":true,"uuid":"2b4efda4-b342-427d-ab75-40e096ff3964","tls":true,"servername":"addons.mozilla.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"sW2BTTpqk949JGMIsSrIIqSHcnB7WxhGJffxAhWfYCg"},"client-fingerprint":"chrome"}
   - {"name":"06-RN","type":"vmess","server":"107.173.156.42","port":51785,"cipher":"auto","uuid":"ca524e35-b817-4586-b28c-55515d0e0707","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-＃ 2024.0414.1022
+# 2024.0414.1022
   - {"name":"06-RN-记得点点广告","type":"vmess","server":"107.173.156.42","port":51785,"cipher":"auto","uuid":"ca524e35-b817-4586-b28c-55515d0e0707","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"02-NL-记得点点广告","type":"vmess","server":"5.255.124.27","port":24437,"cipher":"auto","uuid":"c57c6869-ce4d-404f-8c93-43758f280c4b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"04-NL-记得点点广告（适合联通）","type":"vmess","server":"31.41.249.191","port":13641,"cipher":"auto","uuid":"b9db8da8-0fae-4212-c09b-6e1ff064947a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
