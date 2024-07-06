@@ -11,3 +11,4 @@ proxies:
 # 2024.0414.2211
   - {"name":"defaultName","server":"nat.rushshop.club","port":24147,"password":"dacd2765-2332-4817-83c4-273df586c8c5","uuid":"dacd2765-2332-4817-83c4-273df586c8c5","alpn":["h3"],"congestion_control":"bbr#nat.rushshop.club"}
   - {"name":"RLY05JP","type":"vless","server":"13.231.188.57","port":7826,"udp":true,"uuid":"94495d3f-8f9f-3d89-859b-d35e2394c5e4","tls":true,"servername":"broadcast.chat.bilibili.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"h6gA4e9TDf55_R3CEGAmyLbVGNqLfERt5wea2DFw7Wc","short-id":"bb44791d"},"client-fingerprint":"edge"}
+  - {"name":"vl-reality-root","type":"vless","server":"2a0e:8f02:f04f:1027::4a7f:af58","port":7784,"udp":true,"uuid":"587983ca-21c6-4c99-9dd3-c101ffb32477","tls":true,"servername":"www.yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"qJ2c55TdEfciF4Fmya61FAe2INs5zzhijKx9BW3DTzU","short-id":"8b19c1a4"},"client-fingerprint":"chrome"}
