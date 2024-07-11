@@ -70,3 +70,7 @@ proxies:
   - {"name":"优选官方线路","type":"vless","server":"vless.cfno1.eu.org","port":443,"uuid":"cab438c4-9c5a-43fd-a623-ce81cb93085c","tls":true,"servername":"hk.twittei.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hk.twittei.link"}},"client-fingerprint":"random"}
   - {"name":"🏳️‍🌈 流量消耗zh.myavlive.com","type":"vless","server":"cdn.twittei.link","port":443,"uuid":"cab438c4-9c5a-43fd-a623-ce81cb93085c","tls":true,"servername":"hk.twittei.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hk.twittei.link"}},"client-fingerprint":"chrome"}
   - {"name":"SCP免费节点","type":"vless","server":"82.153.135.50","port":34171,"udp":true,"uuid":"ac74dfae-6039-43c0-fa55-fbf6e6630df6","tls":true,"servername":"dmcc.ae","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg"},"client-fingerprint":"chrome"}
+  - {"name":"2024.0711akile","type":"hysteria2","server":"gpt.nai3.cc","port":10429,"password":"18d4bcb1-dfab-4af2-b2cb-f8e61384da22","sni":"gpt.nai3.cc"}
+  - {"name":"2024.0711KT家宽","type":"ss","server":"221.150.109.16","port":10218,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
+  - {"name":"2024.0711Kddi家宽","type":"vmess","server":"210.196.97.18","port":34552,"cipher":"none","uuid":"f394ca62-775f-b602-2a79-5c3ddcbd750d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+
