@@ -1,9 +1,50 @@
 proxies:
-  - {"name":"Maclash","type":"Socks5","server":"117.30.197.133","port":7899,"username":"asclash","password":"12347890","uuid":"F430A528-55E6-4470-9CE4-5343300AE829"}
-  - {"name":"01-USA","type":"vmess","server":"2607:f130:0:134::9","port":50100,"cipher":"auto","uuid":"7748cec0-5164-4c52-87cf-55758d80fdaf","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"02-NL","type":"vmess","server":"5.255.124.27","port":24437,"cipher":"auto","uuid":"c57c6869-ce4d-404f-8c93-43758f280c4b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"03-NL","type":"vmess","server":"31.41.249.191","port":13641,"cipher":"auto","uuid":"b9db8da8-0fae-4212-c09b-6e1ff064947a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"04-USA","type":"vless","server":"51.81.223.225","port":11094,"udp":true,"uuid":"f1fa0ad9-b122-4b7c-da82-4bea9edc48dd","tls":true,"servername":"www.yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"9dnXiXxP4xgvtTVRj9SBFdyO6mjGvVhWD8qVZZLCCCk","short-id":"a356addf"},"client-fingerprint":"chrome"}
-  - {"name":"05-DE","type":"vless","server":"cfip.dabo.free.hr","port":2096,"uuid":"c317e635-03d3-4fb6-b44d-211eaa99f041","tls":true,"servername":"picnic-urw-promote-armed.trycloudflare.com","network":"ws","ws-opts":{"path":"c317e635","headers":{"host":"picnic-urw-promote-armed.trycloudflare.com"}}}
-  - {"name":"06-CF","type":"vless","server":"cfip.dabo.free.hr","port":2096,"uuid":"2b4efda4-b342-427d-ab75-40e096ff3964","tls":true,"servername":"0718.696960.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0718.696960.xyz"}},"client-fingerprint":"randomized"}
-  - {"name":"07-USA","type":"vmess","server":"107.173.156.42","port":51785,"cipher":"auto","uuid":"ca524e35-b817-4586-b28c-55515d0e0707","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"俄罗斯 A","type":"ss","server":"neoeur.upperlay.xyz","port":630,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"俄罗斯 B","type":"ss","server":"neoeur.upperlay.xyz","port":631,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"[直连] 香港","type":"ss","server":"hktactivc-e.onlineqitv-ns.xyz","port":563,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"香港动态 A","type":"ss","server":"shcuhk.nextnet.cyou","port":563,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"香港动态 B","type":"ss","server":"shcuhk.nextnet.cyou","port":564,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"香港动态 C","type":"ss","server":"shcuhk.nextnet.cyou","port":565,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"香港 01","type":"ss","server":"cmrefhk1.exitlag.xyz","port":563,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"香港 02","type":"ss","server":"cmlayer2.exitlag.xyz","port":564,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"香港 03","type":"ss","server":"cnrefhk2.exitlag.xyz","port":564,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"香港 04","type":"ss","server":"cminit.exitlag.xyz","port":565,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"香港 05","type":"ss","server":"cmthkd-d.net-lag.xyz","port":563,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"香港 06","type":"ss","server":"cmrefhk1.exitlag.xyz","port":564,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"香港 07","type":"ss","server":"cminit.exitlag.xyz","port":566,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"香港 08","type":"ss","server":"rcgm.exitlag.xyz","port":563,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"香港 09","type":"ss","server":"rcgm.exitlag.xyz","port":564,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"香港 10","type":"ss","server":"cminit.exitlag.xyz","port":567,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"香港 11","type":"ss","server":"cmthkd-d.net-lag.xyz","port":564,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"香港 12","type":"ss","server":"cnrefhk2.exitlag.xyz","port":565,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"香港 13","type":"ss","server":"cmlayer2.exitlag.xyz","port":565,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"香港 14","type":"ss","server":"cmthkd-d.net-lag.xyz","port":565,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"香港 15","type":"ss","server":"shzzzhk.eucdurl.me","port":562,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"香港 16","type":"ss","server":"shzzzhk.eucdurl.me","port":563,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"香港 17","type":"ss","server":"cmlayer2.exitlag.xyz","port":566,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"日本 A","type":"ss","server":"aisalayer01.upperlay.xyz","port":566,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"日本 B","type":"ss","server":"aisalayer01.upperlay.xyz","port":567,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"新加坡 A","type":"ss","server":"aisalayer01.upperlay.xyz","port":568,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"新加坡 B","type":"ss","server":"aisalayer01.upperlay.xyz","port":569,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"新加坡 C","type":"ss","server":"aisalayer02.upperlay.xyz","port":569,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"新加坡 D","type":"ss","server":"aisalayer02.upperlay.xyz","port":570,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"新加坡 E","type":"ss","server":"aisalayer02.upperlay.xyz","port":571,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"韩国","type":"ss","server":"aisalayer01.upperlay.xyz","port":570,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"台湾","type":"ss","server":"cntwlayer1.labexit.xyz","port":571,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"美国 01","type":"ss","server":"usastart1.upperlay.xyz","port":571,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"美国 02","type":"ss","server":"usastart1.upperlay.xyz","port":572,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"美国 03","type":"ss","server":"usastart1.upperlay.xyz","port":573,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"美国 04","type":"ss","server":"usastart1.upperlay.xyz","port":574,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"美国 05","type":"ss","server":"usastart1.upperlay.xyz","port":575,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"美国 06","type":"ss","server":"usastart2.upperlay.xyz","port":570,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"美国 07","type":"ss","server":"usastart2.upperlay.xyz","port":571,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"美国 08","type":"ss","server":"usastart2.upperlay.xyz","port":572,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"美国 09","type":"ss","server":"usastart2.upperlay.xyz","port":573,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"美国 10","type":"ss","server":"usastart2.upperlay.xyz","port":574,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"加拿大","type":"ss","server":"neoeur.upperlay.xyz","port":570,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"英国 A","type":"ss","server":"neoeur.upperlay.xyz","port":634,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"英国 B","type":"ss","server":"neoeur.upperlay.xyz","port":635,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"印度","type":"ss","server":"neoeur.upperlay.xyz","port":633,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"土耳其","type":"ss","server":"neoeur.upperlay.xyz","port":636,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"意大利","type":"ss","server":"neoeur.upperlay.xyz","port":637,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
+  - {"name":"03-USA-FreeV","type":"vless","server":"51.81.223.225","port":11094,"udp":true,"uuid":"f1fa0ad9-b122-4b7c-da82-4bea9edc48dd","tls":true,"servername":"www.yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"9dnXiXxP4xgvtTVRj9SBFdyO6mjGvVhWD8qVZZLCCCk","short-id":"a356addf"},"client-fingerprint":"chrome"}
