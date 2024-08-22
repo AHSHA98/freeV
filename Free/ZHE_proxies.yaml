@@ -47,4 +47,3 @@ proxies:
   - {"name":"印度","type":"ss","server":"neoeur.upperlay.xyz","port":633,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
   - {"name":"土耳其","type":"ss","server":"neoeur.upperlay.xyz","port":636,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
   - {"name":"意大利","type":"ss","server":"neoeur.upperlay.xyz","port":637,"password":"94954dc5-4dee-4384-84d2-c96ef0c169fb","cipher":"aes-128-gcm"}
-  - {"name":"03-USA-FreeV","type":"vless","server":"51.81.223.225","port":11094,"udp":true,"uuid":"f1fa0ad9-b122-4b7c-da82-4bea9edc48dd","tls":true,"servername":"www.yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"9dnXiXxP4xgvtTVRj9SBFdyO6mjGvVhWD8qVZZLCCCk","short-id":"a356addf"},"client-fingerprint":"chrome"}
