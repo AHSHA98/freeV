@@ -15,7 +15,7 @@ external-controller: 0.0.0.0:9090
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"ASClash","type":"socks5","server":"117.30.197.133","port":7899,"username":"asclash","password":"12347890"}
+  - {
 proxy-groups:
 
   - name: ♻️ 自动选择
