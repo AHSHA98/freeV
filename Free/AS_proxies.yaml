@@ -12,3 +12,4 @@ proxies:
   - {"name":"2024.0711KT家宽","type":"ss","server":"221.150.109.16","port":10218,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
   - {"name":"2024.0711Kddi家宽","type":"vmess","server":"210.196.97.18","port":34552,"cipher":"none","uuid":"f394ca62-775f-b602-2a79-5c3ddcbd750d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"2024.0713y-tian-team","type":"vless","server":"2a0e:8f02:f04f:1027::4a7f:af58","port":17395,"uuid":"ba060aa6-8f83-4cf5-9595-0bbe8be95558","tls":true,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"IT-TalkTalk-Siziano_tls","type":"vless","server":"36.140.92.97","port":10351,"uuid":"d9ae134b-d225-4f4d-abed-0e3f8f16bd50","tls":true,"servername":"ml.mcclellandhausbau.com","network":"ws","ws-opts":{"path":"d9ae134b","headers":{"host":"ml.mcclellandhausbau.com"}}}
