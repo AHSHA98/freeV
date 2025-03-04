@@ -1,2 +1,10 @@
 proxies:
-  - {"name":"ASClash","type":"socks5","server":"120.41.187.153","port":7899,"username":"asclash","password":"12347890","flag" : "TW"}
+  - name: ASClash
+    type: socks5
+    server: 120.41.187.153
+    port: 7899
+    username: asclash
+    password: 12347890
+    flag: TW
+#proxies:
+#  - {"name":"ASClash","type":"socks5","server":"120.41.187.153","port":7899,"username":"asclash","password":"12347890","flag" : "TW"}
