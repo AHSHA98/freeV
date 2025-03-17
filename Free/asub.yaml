@@ -1,7 +1,7 @@
 proxies:
   - name: ASClash
     type: socks5
-    server: 59.57.180.71
+    server: 27.152.148.47
     port: 7899
     username: asclash
     password: 12347890
