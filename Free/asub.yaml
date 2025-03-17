@@ -1,5 +1,5 @@
 proxies:
-  - name: ASClash
+  - name: ASClash20250317
     type: socks5
     server: 27.152.148.47
     port: 7899
